@@ -1,14 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>KingSoft Connect – Soporte Informático 100% Remoto</title>
-  <meta name="description" content="Soporte informático remoto, rápido y seguro. Instalación de software, eliminación de virus, mantenimiento y consultoría. España." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>KingSoft Connect – Soporte Informático 100% Remoto</title>
+<meta content="Soporte informático remoto, rápido y seguro. Instalación de software, eliminación de virus, mantenimiento y consultoría. España." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
     :root{--brand:#0b5fa5;--brand-dark:#083e6b;--ink:#0f172a;--muted:#475569;--bg:#f5f7fb;--card:#ffffff;}
     *{box-sizing:border-box}
     html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg);}    
@@ -46,72 +47,143 @@
     form .row{gap:12px}
     @media (max-width:900px){.row{flex-direction:column;align-items:flex-start}.card-grid{grid-template-columns:1fr}.packs{grid-template-columns:1fr 1fr}.contact{grid-template-columns:1fr}}
     @media (max-width:600px){.packs{grid-template-columns:1fr}}
+  
     .steps{display:grid;gap:12px;margin-top:16px}
-    .step{background:var(--card);border:1px solid #e6e9ef;border-radius:12px;padding:12px;}
-    .step h4{margin:0 0 6px;font-size:1rem;color:var(--brand)}
-  </style>
+    .step{background:#ffffff;border:1px solid #e6e9ef;border-radius:12px;padding:12px;}
+    .step h4{margin:0 0 6px;font-size:1rem;color:#0b5fa5}
+    </style>
 </head>
 <body>
-  <header>
-    <div class="container row">
-      <div class="brand">
-        <img src="KingSoft_Logo_transparente.png" alt="KingSoft Connect logo" />
-        <div class="name">KingSoft Connect</div>
-      </div>
-      <nav>
-        <a href="#servicios">Servicios</a>
-        <a href="#packs">Packs</a>
-        <a href="#tarifas">Tarifas</a>
-        <a href="#descargas">Descargas</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <!-- (resto del contenido igual que antes) -->
-
-    <section id="descargas">
-      <div class="container">
-        <h2>Descargas útiles</h2>
-        <p>Aquí puedes descargar directamente AnyDesk para conectarme a tu equipo de forma segura:</p>
-        <div class="cta" style="margin-top:14px">
-          <a class="btn primary" href="https://download.anydesk.com/AnyDesk.exe" target="_blank" rel="noopener">Descargar AnyDesk para Windows</a>
-          <a class="btn secondary" href="https://download.anydesk.com/anydesk.dmg" target="_blank" rel="noopener">Descargar AnyDesk para Mac</a>
-        </div>
-
-        <div class="steps">
-          <div class="step">
-            <h4>1. Descarga AnyDesk</h4>
-            <p>Elige tu sistema operativo (Windows o Mac) y descarga el instalador desde los botones de arriba.</p>
-          </div>
-          <div class="step">
-            <h4>2. Instala el programa</h4>
-            <p>Haz doble clic en el archivo descargado y sigue los pasos del instalador.</p>
-          </div>
-          <div class="step">
-            <h4>3. Abre AnyDesk</h4>
-            <p>Cuando se abra, verás un número llamado <b>"Su dirección AnyDesk"</b> en la pantalla principal.</p>
-          </div>
-          <div class="step">
-            <h4>4. Envíame tu ID</h4>
-            <p>Cópialo y mándamelo por WhatsApp o correo para que pueda conectarme a tu equipo de forma segura.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- (resto del contenido igual que antes) -->
-
-  </main>
-
-  <footer>
-    <div class="container row" style="justify-content:space-between">
-      <div>© <span id="y"></span> KingSoft Connect • Soporte remoto en España</div>
-      <div><a href="#">Aviso legal</a> · <a href="#">Privacidad</a> · <a href="#">Cookies</a></div>
-    </div>
-  </footer>
-
-  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<header>
+<div class="container row">
+<div class="brand">
+<img alt="KingSoft Connect logo" src="KingSoft_Logo_transparente.png"/>
+<div class="name">KingSoft Connect</div>
+</div>
+<nav>
+<a href="#servicios">Servicios</a>
+<a href="#packs">Packs</a>
+<a href="#tarifas">Tarifas</a>
+<a href="#contacto">Contacto</a><a href="#descargas">Descargas</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="hero">
+<div class="container row">
+<div>
+<h1>Soporte Informático <span style="color:var(--brand)">100% Remoto</span></h1>
+<p>Soluciono problemas, instalo y optimizo tu PC a distancia. Seguro, rápido y con trato cercano.</p>
+<div class="cta">
+<a class="btn primary" href="https://wa.me/34635105552" rel="noopener" target="_blank">WhatsApp: +34 635 10 55 52</a>
+<a class="btn secondary" href="mailto:kingsoftconnect@gmail.com">kingsoftconnect@gmail.com</a>
+</div>
+<p class="tag" style="margin-top:10px">Dyan Vázquez · Técnico</p>
+</div>
+<div>
+<img alt="Logo" src="KingSoft_Logo_transparente.png" style="max-width:280px;opacity:.9"/>
+</div>
+</div>
+</section>
+<section id="servicios">
+<div class="container">
+<h2>Servicios principales</h2>
+<div class="card-grid" style="margin-top:12px">
+<div class="card"><h3>Soporte remoto básico</h3><p>Diagnóstico y solución de incidencias simples por control remoto.</p></div>
+<div class="card"><h3>Eliminación de virus/malware</h3><p>Escaneos avanzados, limpieza segura y optimización posterior.</p></div>
+<div class="card"><h3>Instalación de software</h3><p>Office, navegadores, PDF y utilidades (con licencias legales del cliente).</p></div>
+<div class="card"><h3>Configuración de correo</h3><p>Outlook, Gmail, integración móvil y copias en la nube.</p></div>
+<div class="card"><h3>Mantenimiento</h3><p>Limpieza de temporales, arranque optimizado y actualizaciones.</p></div>
+<div class="card"><h3>Asesoría IT</h3><p>Recomendaciones de seguridad, backups y compras de equipo.</p></div>
+</div>
+</div>
+</section>
+<section id="packs">
+<div class="container">
+<h2>Packs</h2>
+<div class="packs" style="margin-top:12px">
+<div class="pack">
+<h3>Básico – Mantenimiento rápido</h3>
+<div>1 sesión de soporte remoto · Instalación de programas comunes · Optimización básica</div>
+<div class="price">30 €</div>
+</div>
+<div class="pack">
+<h3>Estándar – PC siempre a punto</h3>
+<div>2 sesiones/mes · Eliminación de virus ligera · Correo/Nube · Revisión de seguridad</div>
+<div class="price">60 €/mes</div>
+</div>
+<div class="pack">
+<h3>Premium – Protección total</h3>
+<div>4 sesiones/mes · Antimalware avanzado · Instalación Office · Backups</div>
+<div class="price">120 €/mes</div>
+</div>
+<div class="pack">
+<h3>Empresas – Soporte continuo</h3>
+<div>Prioridad · 5 h/mes · Seguridad y mantenimiento · Correo corporativo · Asesoría RGPD</div>
+<div class="price">250 €/mes</div>
+</div>
+</div>
+</div>
+</section>
+<section id="tarifas">
+<div class="container">
+<h2>Tarifas</h2>
+<div style="overflow-x:auto;margin-top:12px">
+<table class="table">
+<thead>
+<tr>
+<th>Servicio</th>
+<th>Descripción</th>
+<th>Tiempo estimado</th>
+<th>Precio base (€)</th>
+<th>Hora extra (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Soporte remoto básico</td><td>Conexión, diagnóstico y solución de incidencias simples</td><td>30 min</td><td>20</td><td>30</td></tr>
+<tr><td>Mantenimiento general</td><td>Optimización, limpieza y revisión de seguridad</td><td>1 h</td><td>35</td><td>30</td></tr>
+<tr><td>Eliminación virus/malware</td><td>Escaneos pro, limpieza y optimización</td><td>1,5 h</td><td>50</td><td>30</td></tr>
+<tr><td>Instalación de software</td><td>Office, navegadores, PDF, utilidades</td><td>45 min</td><td>25</td><td>30</td></tr>
+<tr><td>Configuración de correo</td><td>Outlook, Gmail, móvil</td><td>1 h</td><td>30</td><td>30</td></tr>
+<tr><td>Asesoría/consultoría IT</td><td>Seguridad, backups, compras</td><td>1 h</td><td>40</td><td>35</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="descargas"><div class="container"><h2>Descargas útiles</h2><p>Aquí puedes descargar directamente AnyDesk para conectarme a tu equipo de forma segura:</p><div class="cta" style="margin-top:14px"><a class="btn primary" href="https://download.anydesk.com/AnyDesk.exe" rel="noopener" target="_blank">Descargar AnyDesk para Windows</a><a class="btn secondary" href="https://download.anydesk.com/anydesk.dmg" rel="noopener" target="_blank">Descargar AnyDesk para Mac</a></div><div class="steps"><div class="step"><h4>1. Descarga AnyDesk</h4><p>Elige tu sistema operativo (Windows o Mac) y descarga el instalador desde los botones de arriba.</p></div><div class="step"><h4>2. Instala el programa</h4><p>Haz doble clic en el archivo descargado y sigue los pasos del instalador.</p></div><div class="step"><h4>3. Abre AnyDesk</h4><p>Cuando se abra, verás un número llamado "Su dirección AnyDesk" en la pantalla principal.</p></div><div class="step"><h4>4. Envíame tu ID</h4><p>Cópialo y mándamelo por WhatsApp o correo para que pueda conectarme a tu equipo de forma segura.</p></div></div></div></section><section id="contacto">
+<div class="container contact">
+<div>
+<h2>Contacto</h2>
+<p>¿Necesitas ayuda ahora? Escríbeme por WhatsApp o correo y te atiendo en remoto.</p>
+<div class="cta" style="margin:12px 0 18px">
+<a class="btn primary" href="https://wa.me/34635105552" rel="noopener" target="_blank">WhatsApp</a>
+<a class="btn secondary" href="mailto:kingsoftconnect@gmail.com">Correo</a>
+</div>
+<p><strong>Teléfono:</strong> +34 635 10 55 52<br/>
+<strong>Email:</strong> kingsoftconnect@gmail.com</p>
+</div>
+<form action="mailto:kingsoftconnect@gmail.com" enctype="text/plain" method="post">
+<h3 style="margin-top:0">Escríbeme</h3>
+<div class="row">
+<input name="nombre" placeholder="Nombre" required=""/>
+<input name="email" placeholder="Correo" required="" type="email"/>
+</div>
+<textarea name="mensaje" placeholder="Cuéntame tu problema…" required="" rows="5"></textarea>
+<div style="margin-top:10px">
+<button class="btn primary" type="submit">Enviar</button>
+</div>
+<p style="font-size:.85rem;color:var(--muted);margin-top:8px">Al enviar aceptas el tratamiento de tus datos para gestionar tu solicitud.</p>
+</form>
+</div>
+</section>
+</main>
+<footer>
+<div class="container row" style="justify-content:space-between">
+<div>© <span id="y"></span> KingSoft Connect • Soporte remoto en España</div>
+<div><a href="#">Aviso legal</a> · <a href="#">Privacidad</a> · <a href="#">Cookies</a></div>
+</div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 </body>
 </html>
